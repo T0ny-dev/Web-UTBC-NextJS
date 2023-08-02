@@ -1,0 +1,33 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8vh 5vw;
+  align-items: center;
+}
+
+.Navbar__Links ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.Navbar__Links a {
+  text-decoration: none;
+  padding: 0vh 1vw;
+  color: #020202;
+}
+
+.Navbar__Access {
+  display:flex;
+  align-items: center;
+}
+
+.Navbar__Access a {
+  margin-right: 1.5vw;
+  color: #020202;
+  text-decoration: none;
+}
+
+.Navbar__Access img {
+  width: 40px;
+  cursor: pointer;
+}
