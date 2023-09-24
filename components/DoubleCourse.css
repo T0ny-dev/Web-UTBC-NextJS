@@ -1,0 +1,34 @@
+.Double {
+  display: flex;
+  padding: 5vh 10vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.Double__hero__image {
+  display: flex;
+}
+
+.Double__hero__image img {
+  width: 300px;
+}
+
+.Double__hero {
+  width: 60%;
+  padding-right: 5vw;
+}
+
+.Double__hero h3 {
+  font-size: 32px;
+  text-align: right;
+}
+
+@media (max-width: 950px) {
+  .Double {
+    flex-direction: column-reverse;
+    gap: 5vh;
+  }
+  .Double__hero {
+    width: 80%;
+  }
+}

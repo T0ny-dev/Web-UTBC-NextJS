@@ -1,0 +1,63 @@
+.NavbarUtlc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 5vw;
+}
+
+.NavbarUtlc__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavbarUtlc__links img {
+  width: 60px;
+  margin-right: 2vw;
+}
+
+.NavbarUtlc__links ul {
+  display: flex;
+  gap: 2vw;
+  list-style: none;
+  font-weight: 500;
+}
+
+.NavbarUtlc__acces {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.NavbarUtlc__acces a {
+  color: #929090;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.NavbarUtlc__acces a::after {
+  content: "►"; /* Puedes usar el código Unicode de un icono aquí */
+  margin-left: 5px; /* Agrega espacio entre el icono y el texto */
+}
+
+.button__call {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 18px;
+  border: solid #0DF485 1px;
+  cursor: pointer;
+}
+
+.button__utlc {
+  background-color: #FF6600;
+  border: none;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}

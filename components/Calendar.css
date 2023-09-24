@@ -1,0 +1,69 @@
+.Courses__all {
+  background-color: #F6F5F6;
+  padding: 5vh 10vw;
+}
+
+.Course__box__all {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.18);
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.18);
+  padding: 3vh 2vw;
+  margin-bottom: 5vh;
+  background-color: white;
+}
+
+.Courses__all h2 {
+  font-size: 40px;
+  background-color: transparent;
+  color: black;
+  padding: 1vh 0vw 5vh 0vw;
+  text-align: center;
+}
+
+.Courses__all p {
+  text-align: center;
+} 
+
+.Courses__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
+}
+
+.Course__box__all h3 {
+  font-size: 40px;
+}
+
+.course__content__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.course__content__title span {
+  margin-right: 2vw;
+}
+
+.course__content__title p {
+  margin-top: 2vh;
+}
+
+@media (max-width: 650px)  {
+  .Course__box__all {
+    flex-direction: column;
+    padding: 2vh 7vw;
+  }
+  .Course__box__all h3 {
+    font-size: 32px;
+    margin-bottom: 2vh;
+  }
+
+  .course__content__title p {
+    margin-bottom: 2vh;
+  }
+
+}

@@ -1,0 +1,23 @@
+{
+  "Curso básico de Autocad": [
+    "Dibujo",
+    "Modificación",
+    "Comandos auxiliares de trazo (Rastreo a objetos)",
+    "Tipos de textos",
+    "Acotaciones",
+    "Impresión a escala"
+  ],
+  "Curso básico de mamografía": [
+    "Fundamentos teóricos",
+    "Métodos de obtención de imágenes",
+    "Tomosíntesis mamario",
+    "Factores de exposición",
+    "Control de calidad",
+    "Mamografía y radiaciones",
+    "Técnicas complementarias",
+    "Implantes mamográficos",
+    "Intervencionismo mamario",
+    "Sistema BI-RADS"
+
+  ]
+}

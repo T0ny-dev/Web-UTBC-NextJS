@@ -6,25 +6,22 @@ import ApiPagination from "@/components/ApiPagination";
 import Calendar from "@/components/Calendar";
 import DoubleCourse from "@/components/DobleCourse";
 import Banner from "@/components/Banner";
-import NavbarMobile from "@/components/NavbarMobile";
 
 
-function Home () {
-
+function EducationPage () {
 
 
   return (
     <div>
-        <Navbar/>
-        <NavbarMobile/>
-        <HeroCourse image={"./team.png"}/>
-        <DoubleCourse/>
-        <ApiPagination/>
-        <Banner/>
-        <Calendar/>
+      <Navbar/>
+      <HeroCourse image={"./team.png"}/>
+      <DoubleCourse/>
+      <ApiPagination/>
+      <Banner/>
+      <Calendar/>
       <Footer/>
     </div>
   )
-}
+};
 
-export default Home;
+export default EducationPage;

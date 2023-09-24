@@ -1,0 +1,35 @@
+.animated-span-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 50px; /* Altura deseada */
+  justify-content: flex-end;
+  padding: 0vh 10vw;
+}
+
+.animated-span {
+  display: inline-block;
+  width: 200px;
+  padding: 10px; /* Ancho deseado */
+  height: 50px; /* Altura deseada */
+  border-radius: 50px;
+  margin-right: 10px; /* Espacio entre las spans */
+  animation: moveRightToLeft 20s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;;
+}
+
+.animated-span-container {
+  margin-bottom: 1vh;
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-800%);
+  }
+}

@@ -1,0 +1,45 @@
+.double {
+  display: flex;
+  background-color: #fff;
+  padding: 10vh 10vw;
+}
+
+.double_title {
+  background-color: #fff;
+  color: black;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 3vh;
+}
+
+.double__section {
+  width: 50%;
+}
+
+.double__section p {
+  margin-top:2vh;
+  margin-bottom: 5vh;
+}
+
+.double__section button {
+  margin-top: 2vh;
+}
+
+.double__Image {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.button__second {
+  color: #fff;
+  background-color: #495ABA;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}

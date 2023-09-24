@@ -1,0 +1,247 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.bread {
+  display: flex;
+  padding: 10vh 10vw 2vh 10vw;
+  align-items: center;
+}
+
+.bread__link {
+  font-size: 18px;
+  font-weight: 600;
+  color: #495ABA;
+}
+
+
+.hero__course {
+  display: flex;
+  padding: 2vh 10vw;
+  justify-content: space-between;
+}
+
+.hero__course__content {
+  width: 50%;
+}
+
+.hero_course__image img {
+  width: 35em;
+}
+
+.hero__course__content span {
+  background-color: #DCFD77;
+  color: black;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.hero__course__content h3 {
+  margin-top: 5vh;
+  font-size: 40px;
+  margin-bottom: 1.8vh;
+}
+
+.Button__inscription {
+  margin-top: 3vh;
+  color: #fff;
+  background-color: #2895ef;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+
+.Information__course {
+  display: flex;
+  padding: 1vh 10vw;
+}
+
+.information__content__box {
+  display: flex;
+  gap: 2vw;
+}
+
+.Information__box {
+  padding: 3vh 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.18);
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.18);
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.information__title img {
+  margin-right: 5px;
+  width: 30px;
+}
+
+.information__title {
+  display: flex;
+  align-items: center;
+}
+
+.information__title p {
+  font-size: 18px;
+}
+
+#hour {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+#dificult {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Content__topics {
+  margin-top: -5vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5vh 10vw;
+  background-color: #F6F5F6;
+}
+
+.Content__topics h2 {
+  font-size: 36px;
+  padding: 15px;
+  background-color: transparent;
+  color: black;
+  font-weight: 600;
+}
+
+.content__file  img {
+  margin-right: 1vw;
+  width: 32px;
+}
+
+.content__file p {
+  font-size: 18px;
+}
+
+.content__file {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 5vh 2vw;
+  margin-bottom: 2vh;
+  background-color: #fff;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.18);
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.18);
+}
+
+.Content__all {
+  width: 100%;
+}
+
+.Content__all h3 {
+  font-size: 40px;
+  padding: 2vh 0vw;
+}
+
+.Brosure__button {
+  padding: 2vh 0vw;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.Brosure__button button {
+  width: 250px;
+}
+
+@media (max-width: 950px) {
+
+  .hero__course {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .Brosure__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+  
+  .Button__inscription {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .information__content__box {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+/** pagination **/
+
+.Courses__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh 5vw;
+  gap: 2vw;
+}
+
+.button__pagination {
+  border:  2px solid #000;
+  padding: 10px 20px;
+  font-size: 36px;
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button__pagination:hover {
+  border:  2px solid #000;
+  padding: 10px 20px;
+  font-size: 36px;
+  background-color: #efefef;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.Course__button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 2vh 0vw;
+}
+
+.button__second__course {
+  width:355px;
+  font-size: 18px;
+  height: 60px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  background-color: #2895ef;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button__second {
+  color: #fff;
+  background-color: #2895ef;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}

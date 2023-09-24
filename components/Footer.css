@@ -1,0 +1,106 @@
+.Footer {
+  display:flex;
+  justify-content: space-between;
+  padding: 2vh 10vw;
+}
+
+.Footer__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.Footer__logo img {
+  width: 250px;
+}
+
+.Footer__logo h3 {
+  margin-top: 2vh;
+  font-weight: 400;
+}
+
+.button__solid {
+  color: #000;
+  background-color: transparent;
+  border: solid 2px #2895ef;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Footer__category li {
+  list-style: none;
+  margin-bottom: .5vh;
+  cursor: pointer;
+}
+
+.Footer__category li::before {
+  content: "|"; /* Puedes usar el código Unicode de un icono aquí */
+  margin-right:.5vw ; /* Agrega espacio entre el icono y el texto */
+  color: #181F47;
+  font-weight:900;
+}
+
+.Footer__Links li {
+  list-style: none;
+  margin-bottom: 1vh;
+  cursor: pointer;
+}
+
+.Footer__Links li::before {
+  content: "|"; /* Puedes usar el código Unicode de un icono aquí */
+  margin-right:.5vw ; /* Agrega espacio entre el icono y el texto */
+  color: #495ABA;
+  font-weight:900;
+}
+
+#centro::before {
+  content: "|"; /* Puedes usar el código Unicode de un icono aquí */
+  margin-right:.5vw ; /* Agrega espacio entre el icono y el texto */
+  color: #181F47;
+  font-weight:900;
+}
+
+#plataforma::before{ 
+  content: "|"; /* Puedes usar el código Unicode de un icono aquí */
+  margin-right:.5vw ; /* Agrega espacio entre el icono y el texto */
+  color: #77FDBD;
+  font-weight:900;
+}
+
+#siu::before {
+  content: "|"; /* Puedes usar el código Unicode de un icono aquí */
+  margin-right:.5vw ; /* Agrega espacio entre el icono y el texto */
+  color: #FD7777;
+  font-weight:900;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+@media (max-width: 650px) {
+    .Footer {
+      flex-direction: column;
+    }
+
+    .Footer__logo h3 {
+      margin-top: 2vh;
+      margin-bottom: 2vh;
+      font-weight: 400;
+    }
+
+    .Footer__logo img {
+      width: 250px;
+      margin-top: 2vh;
+    }
+
+    .Footer__category {
+      margin-bottom: 2vh;
+    }
+
+    
+}

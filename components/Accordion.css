@@ -1,0 +1,27 @@
+.accordion {
+  border-bottom: 2px solid #D1D1D1;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  color: #D1D1D1;
+  font-size: 18px;
+  transition: transform 0.3s;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  padding: 10px;
+}

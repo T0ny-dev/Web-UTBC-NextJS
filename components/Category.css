@@ -1,0 +1,44 @@
+.Category {
+  background-color: #12162E;
+  padding: 10vh 0vw;
+}
+
+.Category h2 {
+  font-size: 40px;
+}
+
+.Category__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5vh 18vw;
+}
+
+.Category__icon {
+  background-color: #fff;
+  padding: 3vh 1.8vw;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.Category__icon img {
+  width: 3em;
+
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  max-width: 8vw;
+  align-items: center;
+}
+
+.box p {
+  margin-top: 1vh;
+  text-align: center;
+  color: #fff;
+}
+
+.Category p  {
+  text-align: center;
+  color: #fff;
+}

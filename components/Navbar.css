@@ -1,8 +1,15 @@
 .Navbar {
   display: flex;
   justify-content: space-between;
-  padding: 1.5vh 5vw;
+  padding: 1.5vh 10vw;
   align-items: center;
+  box-shadow: -2px 4px 19px -2px rgba(0,0,0,0.15);
+-webkit-box-shadow: -2px 4px 19px -2px rgba(0,0,0,0.15);
+-moz-box-shadow: -2px 4px 19px -2px rgba(0,0,0,0.15);
+position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 2;
 }
 
 .Navbar__Links ul {
@@ -14,6 +21,8 @@
   text-decoration: none;
   padding: 0vh 1vw;
   color: #020202;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .Navbar__Access {
@@ -30,4 +39,113 @@
 .Navbar__Access img {
   width: 40px;
   cursor: pointer;
+}
+
+.Navbar__Logo img {
+  width: 120px;
+}
+
+.Navbar__Access {
+  display: flex;
+  align-items: center;
+}
+
+.SubMenuToggle {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.SubMenu {
+  position: absolute;
+  top: 0%;
+  right: 0;
+  background-color: #fff; /* Cambia el color de fondo según tu diseño */
+  border: 1px solid #ccc; /* Añade un borde según tu diseño */
+  padding: 30px;
+  display: flex;
+  width: 375px;
+  height:100vh;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 1001;
+}
+
+.SubMenu p {
+  cursor: pointer;
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 5vh;
+}
+
+.custom-hr {
+  border: none; /* Elimina la línea predeterminada */
+  border-top: 1px solid #ccc; /* Establece el borde superior deseado */
+  width: 100%; /* Ajusta el ancho al 100% */
+  margin: 10px 0; /* Agrega margen superior e inferior según sea necesario */
+}
+
+.SubMenu a {
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 2vh;
+  color: #333; /* Cambia el color del texto según tu diseño */
+}
+
+.SubMenu a:hover {
+
+  color: #2895ef; /* Cambia el color del texto según tu diseño */
+}
+
+
+.SubMenu__links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: left;
+}
+
+#discord {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+#discord::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url('https://logodownload.org/wp-content/uploads/2017/11/discord-logo-1-1.png'); /* Ruta de la imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+  margin-right: 5px; /* Agrega un margen derecho si es necesario */
+}
+
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Cambia el ancho al 100% para que cubra toda la pantalla */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Color oscuro de fondo con transparencia */
+  z-index: 1000;
+  display: none;
+}
+
+
+#span-a::after {
+  content: "Próximamente"; /* Puedes usar el código Unicode de un icono aquí */
+  margin-left: 5px; /* Agrega espacio entre el icono y el texto */
+  background-color: #DCFD77;
+  color: #000;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+@media (max-width: 950px) {
+  .Navbar {
+    display: none;
+  }
 }
