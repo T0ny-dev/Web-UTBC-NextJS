@@ -18,7 +18,7 @@ function Brand () {
       <h2><span>+40 cursos</span> creados en educacion continua</h2>
       <div className="Logos">
         {logos.map((logo)=> (
-          <img id={logo.id} src={logo.logo}></img>
+          <img key={logo.id} id={logo.id} src={logo.logo}></img>
         ))}
       </div>
     </>

@@ -12,7 +12,7 @@ import DoubleCourse from '@/components/DobleCourse';
 import Banner from '@/components/Banner';
 import Calendar from '@/components/Calendar';
  
-export default function id () {
+export default function Id () {
   const params = useParams()
   const [data, setData] = useState([]);
 
@@ -52,11 +52,11 @@ export default function id () {
         <Link href="/cursos" className='bread__link'> 
           cursos ◄
         </Link>
-        {data.map((item) => (<p>{item.name}</p>))}
+        {data.map((item) => (<p key={item.id}>{item.name}</p>))}
       </div>
       {data.map((item) => (
-        <div className='hero__course'>
-          <div key={item.id} className="hero__course__content">
+        <div key={item.id} className='hero__course'>
+          <div  className="hero__course__content">
             <span>{item.Categoría}</span>
             <h3>{item.name}</h3>
             <p>{item.objetivogeneral}</p>
@@ -70,7 +70,7 @@ export default function id () {
       <div className='Information__course'>
         {
           data.map((item)=> (
-            <div className='information__content__box'>
+            <div key={item.id} className='information__content__box'>
               <div className='Information__box'>
                 <div className='information__title'>
                   <img src={item.iconclock} alt="" />
@@ -114,7 +114,7 @@ export default function id () {
       ))}
             <div className='Brosure__button'>
         {data.map((item)=> (
-          <a href={item.syllabus} target="_blank">
+          <a key={item.id} href={item.syllabus} target="_blank">
             <button className='Button__inscription'>Descargar broshure</button>
           </a>
         ))}
