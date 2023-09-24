@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react';
+import Link from 'next/link';
 import "./NavbarMobile.css"
 
 
@@ -21,6 +22,9 @@ function NavbarMobile () {
       {showAccessDiv && (
         <div className="AccessDiv">
           {/* Contenido del div que se mostrará al hacer clic en el icono de acceso */}
+          <Link href="https://universidadtamaulipeca.edu.mx/" target={"_blank"}>Universidad Tamaulipeca</Link>
+          <Link href="https://universidadtamaulipeca.edu.mx/consulta-de-pagos/" target={"_blank"}>Consulta de Pagos</Link>
+          <Link href="https://www.canva.com/design/DAFtnSxqP2c/hvs7UhzI4OqCHwLdi5tRag/view?utm_content=DAFtnSxqP2c&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target={"_blank"}>Catálogo virtual</Link>
           <p>Centro de idiomas</p>
           <a href="https://www.plataformaeducativautbc.com/login/index.php" id='login'>Plataforma</a>
         </div>
